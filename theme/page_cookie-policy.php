@@ -4,7 +4,7 @@
  *
  * Template Name: Cookie Policy Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();

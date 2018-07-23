@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 ?>
@@ -37,10 +37,10 @@
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
-			$ldp_description = get_bloginfo( 'description', 'display' );
-			if ( $ldp_description || is_customize_preview() ) :
+			$invirtuale_description = get_bloginfo( 'description', 'display' );
+			if ( $invirtuale_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $ldp_description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description"><?php echo $invirtuale_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 

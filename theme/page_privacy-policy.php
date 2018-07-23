@@ -4,7 +4,7 @@
  *
  * Template Name: Privacy Policy Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();

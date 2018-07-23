@@ -6,100 +6,143 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 ?>
 
 		</div> <!-- <div role="main" class="main"> -->
-			<footer class="short mt-0" id="footer">
+		<footer id="footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3">
-							<h4>Legalità 2.0</h4>
-								<ul class="list list-icons list-unstyled mt-4">
-									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>chi-siamo-associazione">Chi Siamo</a> </li>
-									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>servizi">Servizi</a> </li> <!-- Contatti -->
-									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>news">News</a> </li>
-									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>eventi">Eventi</a> </li> 
-								</ul>
+							<a href="demo-construction.html">
+								<img alt="Porto" class="img-fluid logo" width="110" src="<?php invirtuale_get_theme_base_path(); ?>img/demos/construction/logo-construction-small.png">
+							</a>
 						</div>
-						<div class="col-lg-3 ml-lg-auto">
-							<h4>Contattaci</h4>
-							<ul class="list list-icons mt-4 text-white">
-								<li><i class="fas fa-map"></i><a href="<?php ldp_get_base_path(); ?>contatti/">Dove Siamo</a></li>							
-								<li><i class="fas fa-map-marker-alt"></i>Piazza Casalbore 25, 8124, Salerno</li>
-								<li><i class="fas fa-envelope"></i> <a href="mailto:legalitaduepuntozero@gmail.com">legalitaduepuntozero@gmail.com</a></li>
-								<li><i class="fas fa-phone"></i>+39 349 692 3244</li>
-							</ul>
+						<div class="col-lg-4">
+							<div class="row">
+								<div class="col-lg-6 mb-2">
+									<h4>Navigation</h4>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6 mb-0">
+									<ul class="list list-footer-nav">
+										<li>
+											<a href="demo-construction.html">
+												Home
+											</a>
+										</li>
+										<li>
+											<a href="demo-construction-company.html">
+												Company
+											</a>
+										</li>
+										<li>
+											<a href="demo-construction-services.html">
+												Services
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-lg-6">
+									<ul class="list list-footer-nav">
+										<li>
+											<a href="demo-construction-projects.html">
+												Projects
+											</a>
+										</li>
+										<li>
+											<a href="demo-construction-blog.html">
+												Blog
+											</a>
+										</li>
+										<li>
+											<a href="demo-construction-contact.html">
+												Contact
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<div class="col-lg-3">
-							<h4>Risorse</h4>
-							<ul class="list list-icons list-unstyled mt-4">
-								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>gallery/">Gallery</a> </li>
-								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>slangpedia/">Slangpedia</a> </li>
-								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>cookie-policy/">Cookie policy</a> </li>
-								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>privacy-policy/">Privacy policy</a> </li>								
-							</ul>
+						<div class="col-lg-5">
+							<h4>Newsletter</h4>
+
+							<div class="newsletter">
+
+								<div class="alert alert-success d-none" id="newsletterSuccess">
+									<strong>Success!</strong> You've been added to our email list.
+								</div>
+
+								<div class="alert alert-danger d-none" id="newsletterError"></div>
+
+								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+									<div class="input-group">
+										<input class="form-control form-control-sm" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
+										<span class="input-group-append">
+											<button class="btn btn-light" type="submit"><i class="icon-paper-plane icons"></i></button>
+										</span>
+									</div>
+								</form>
+
+							</div>
+
+							<p><i class="fas fa-phone"></i> (123) 456-789 <i class="far fa-envelope ml-2"></i> <a href="mailto:mail@example.com">mail@example.com</a></p>
+
 						</div>
-						<div class="col-lg-3">
-							<h4>Seguici su</h4>
-							<ul class="social-icons mt-4">
-								<li class="social-icons-facebook"><a href="https://www.facebook.com/legalitaduepuntozero" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-								<li class="social-icons-twitter"><a href="https://twitter.com/Legalita2" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-								<li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/legalit%C3%A0-duepuntozero-a6762313b/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>
-						</div>						
 					</div>
-				</div>
-				<div class="footer-copyright">
-					<div class="container">
+
+					<div class="footer-copyright">
 						<div class="row">
-							<div class="col">
-								<p>© Copyright 2018 Legalità 2.0</p>
+							<div class="col-lg-12 text-center">
+								<p>© Copyright 2018. All Rights Reserved.</p>
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</footer>
 			
 		</div> <!-- <div class="body"> -->
 
 		<!-- Vendor -->
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery/jquery.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery.appear/jquery.appear.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery.easing/jquery.easing.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery-cookie/jquery-cookie.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/popper/umd/popper.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/common/common.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery.validation/jquery.validation.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery.gmap/jquery.gmap.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/isotope/jquery.isotope.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/owl.carousel/owl.carousel.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/vide/vide.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery/jquery.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery-cookie/jquery-cookie.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/popper/umd/popper.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/common/common.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/vide/vide.min.js"></script>
 
 		<!-- Theme Base, Components and Settings -->
-		<script src="<?php ldp_get_theme_base_path(); ?>js/theme.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>js/theme.js"></script>
 
 		<!-- Current Page Vendor and Views -->
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="<?php ldp_get_theme_base_path(); ?>vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
 		<!-- Current Page Vendor and Views -->
-		<script src="<?php ldp_get_theme_base_path(); ?>js/views/view.contact.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>vendor/nivo-slider/jquery.nivo.slider.min.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>js/views/view.contact.js"></script>
 
 		<!-- Demo -->
-		<script src="<?php ldp_get_theme_base_path(); ?>js/demos/demo-law-firm.js"></script>	
+		<script src="<?php invirtuale_get_theme_base_path(); ?>js/demos/demo-construction.js"></script>	
 
 		<!-- Theme Custom -->
-		<script src="<?php ldp_get_theme_base_path(); ?>js/custom.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>js/custom.js"></script>
 
 		<!-- Theme Initialization Files -->
-		<script src="<?php ldp_get_theme_base_path(); ?>js/theme.init.js"></script>
+		<script src="<?php invirtuale_get_theme_base_path(); ?>js/theme.init.js"></script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
@@ -113,7 +156,9 @@
 		</script>
 		-->
 
-		<!--?php wp_footer(); ?-->
+		<!-- Vendor -->
 
+
+		<?php wp_footer(); ?>
 	</body>
 </html>

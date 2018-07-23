@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();
@@ -18,8 +18,8 @@ HOME.PHP
 <div class="rev_slider_wrapper" style="height: 650px;">
 	<div id="revolutionSlider" class="rev_slider" data-version="5.4.7">
 		<ul>
-			<li data-transition="fade" data-title="Advocate Team" data-thumb="<?php ldp_get_theme_base_path(); ?>img/slide1.png">
-				<img src="<?php ldp_get_theme_base_path(); ?>img/slide1.png" alt="">
+			<li data-transition="fade" data-title="Advocate Team" data-thumb="<?php invirtuale_get_theme_base_path(); ?>img/slide1.png">
+				<img src="<?php invirtuale_get_theme_base_path(); ?>img/slide1.png" alt="">
 			</li>
 		</ul>
 	</div>
@@ -67,7 +67,7 @@ HOME.PHP
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-4 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
 				<div class="feature-box-icon">
-					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/business-law.png" alt="" />
+					<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/icons/business-law.png" alt="" />
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Scuole</h4>
@@ -79,7 +79,7 @@ HOME.PHP
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-4 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
 				<div class="feature-box-icon">
-					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/business-law.png" alt="" />
+					<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/icons/business-law.png" alt="" />
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Università</h4>
@@ -91,7 +91,7 @@ HOME.PHP
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-4 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
 				<div class="feature-box-icon">
-					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/health-law.png" alt="" />
+					<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/icons/health-law.png" alt="" />
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Istituti penitenziari</h4>
@@ -106,7 +106,7 @@ HOME.PHP
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 				<div class="feature-box-icon">
-					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/divorce-law.png" alt="" />
+					<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/icons/divorce-law.png" alt="" />
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Privati</h4>
@@ -118,7 +118,7 @@ HOME.PHP
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 				<div class="feature-box-icon">
-					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/capital-law.png" alt="" />
+					<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/icons/capital-law.png" alt="" />
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Avvocati</h4>
@@ -130,7 +130,7 @@ HOME.PHP
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 				<div class="feature-box-icon">
-					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/accident-law.png" alt="" />
+					<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/icons/accident-law.png" alt="" />
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Liberi professionisti</h4>
@@ -144,7 +144,7 @@ HOME.PHP
 
 
 
-<section class="parallax section section-text-light section-parallax section-center mt-5" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/martello.jpg">
+<section class="parallax section section-text-light section-parallax section-center mt-5" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/parallax/martello.jpg">
 	<div class="container">
 		<div class="row counters counters-text-light">
 			<div class="col-lg-3 col-sm-6">
@@ -194,7 +194,7 @@ HOME.PHP
 			<span class="thumb-info thumb-info-side-image thumb-info-no-zoom mb-5">
 				<span class="thumb-info-side-image-wrapper p-0 d-none d-sm-block">
 					<a title="" href="demo-law-firm-news-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/blog/blog-law-firm-1.jpg" class="img-fluid" alt="" style="width: 195px;">
+						<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/blog/blog-law-firm-1.jpg" class="img-fluid" alt="" style="width: 195px;">
 					</a>
 				</span>
 				<span class="thumb-info-caption">
@@ -215,7 +215,7 @@ HOME.PHP
 			<span class="thumb-info thumb-info-side-image thumb-info-no-zoom mb-5">
 				<span class="thumb-info-side-image-wrapper p-0 d-none d-sm-block">
 					<a title="" href="demo-law-firm-news-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/blog/blog-law-firm-2.jpg" class="img-fluid" alt="" style="width: 195px;">
+						<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/blog/blog-law-firm-2.jpg" class="img-fluid" alt="" style="width: 195px;">
 					</a>
 				</span>
 				<span class="thumb-info-caption">
@@ -253,7 +253,7 @@ HOME.PHP
 									</blockquote>
 									<div class="testimonial-author">
 										<div class="testimonial-author-thumbnail">
-											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+											<img src="<?php invirtuale_get_theme_base_path(); ?>img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
 										</div>
 										<p><strong>John Smith</strong><span class="text-light">CEO & Founder - Okler</span></p>
 									</div>
@@ -266,7 +266,7 @@ HOME.PHP
 									</blockquote>
 									<div class="testimonial-author">
 										<div class="testimonial-author-thumbnail">
-											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-2.jpg" class="img-fluid rounded-circle" alt="">
+											<img src="<?php invirtuale_get_theme_base_path(); ?>img/clients/client-2.jpg" class="img-fluid rounded-circle" alt="">
 										</div>
 										<p><strong>Jessica Smith</strong><span class="text-light">Marketing - Okler</span></p>
 									</div>
@@ -279,7 +279,7 @@ HOME.PHP
 									</blockquote>
 									<div class="testimonial-author">
 										<div class="testimonial-author-thumbnail">
-											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-3.jpg" class="img-fluid rounded-circle" alt="">
+											<img src="<?php invirtuale_get_theme_base_path(); ?>img/clients/client-3.jpg" class="img-fluid rounded-circle" alt="">
 										</div>
 										<p><strong>Bob Smith</strong><span class="text-light">COO - Okler</span></p>
 									</div>
@@ -292,7 +292,7 @@ HOME.PHP
 			</section>
 		</div>
 		<div class="col-lg-6 p-0 visible-md visible-lg">
-			<section class="parallax section section-parallax match-height" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/scrivonodinoi.jpg" style="min-height: 450px;">
+			<section class="parallax section section-parallax match-height" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/parallax/scrivonodinoi.jpg" style="min-height: 450px;">
 			</section>
 		</div>
 	</div>

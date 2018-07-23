@@ -2,7 +2,7 @@
 /**
  * Functions which enhance the theme by hooking into WordPress
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 /**
@@ -11,7 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function ldp_body_classes( $classes ) {
+function invirtuale_body_classes( $classes ) {
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
 		$classes[] = 'hfeed';
@@ -24,30 +24,37 @@ function ldp_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'ldp_body_classes' );
+add_filter( 'body_class', 'invirtuale_body_classes' );
 
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
  */
-function ldp_pingback_header() {
+function invirtuale_pingback_header() {
 	if ( is_singular() && pings_open() ) {
 		echo '<link rel="pingback" href="', esc_url( get_bloginfo( 'pingback_url' ) ), '">';
 	}
 }
-add_action( 'wp_head', 'ldp_pingback_header' );
+add_action( 'wp_head', 'invirtuale_pingback_header' );
 
 /**Return the base path of the theme
  */
-function ldp_get_theme_base_path() {
-	echo 'http://www.legalitaduepuntozero.com/nuovo/wp-content/themes/ldp/theme-files/';
+function invirtuale_get_theme_base_path() {
+	echo get_site_url().'/wp-content/themes/invirtuale/theme-files/';
+}
+
+function invirtuale_get_theme_base_path_str() {
+	return get_site_url().'/wp-content/themes/invirtuale/theme-files/';
 }
 
 /**Return the root path of the web site
  */
-function ldp_get_base_path() {
-	echo 'http://www.legalitaduepuntozero.com/nuovo/';
+function invirtuale_get_base_path() {
+	echo get_site_url().'/';
 }
 
+function pb_get_base_path_str() {
+	return get_site_url().'/';
+}
 
 // Add the filter to manage the p tags
 add_filter( 'the_content', 'wti_remove_autop_for_image', 0 );

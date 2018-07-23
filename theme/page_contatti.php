@@ -4,12 +4,12 @@
  *
  * Template Name: Contacts Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();
 ?>
-<section class="section section-text-light section-center section-box section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php ldp_get_theme_base_path(); ?>img/contact_ldp.jpg) no-repeat center center;">
+<section class="section section-text-light section-center section-box section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php invirtuale_get_theme_base_path(); ?>img/contact_ldp.jpg) no-repeat center center;">
 	<div class="section-overlay">
 		<div class="container">
 				<div class="row center text-center mt-5">

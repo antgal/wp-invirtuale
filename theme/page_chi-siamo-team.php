@@ -4,13 +4,13 @@
  *
  * Template Name: Chi Siamo Team Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();
 ?>
 
-<section class="section section-text-light section-center section-box section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php ldp_get_theme_base_path(); ?>img/team_top.jpg) no-repeat center center;">
+<section class="section section-text-light section-center section-box section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php invirtuale_get_theme_base_path(); ?>img/team_top.jpg) no-repeat center center;">
 	<div class="section-overlay">
 		<div class="container">
 				<div class="row center text-center mt-5">
@@ -42,7 +42,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-1.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-1.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -57,7 +57,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-2.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-2.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -72,7 +72,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-3.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-3.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -87,7 +87,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-3.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-3.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -102,7 +102,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-4.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-4.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -117,7 +117,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-5.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-5.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -132,7 +132,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -147,7 +147,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -162,7 +162,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -178,7 +178,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -194,7 +194,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -210,7 +210,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/antonio-gallucci.jpeg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/antonio-gallucci.jpeg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -226,7 +226,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -242,7 +242,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -258,7 +258,7 @@ get_header();
 					<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 						<span class="thumb-info-wrapper">
 							<a>
-								<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
+								<img src="<?php invirtuale_get_theme_base_path(); ?>img/team/team-6.jpg" class="img-fluid" alt="">
 							</a>
 						</span>
 						<span class="thumb-info-caption">
@@ -282,7 +282,7 @@ get_header();
 				<p>Scrivici o chiamaci e otterrai tutte le informazioni di cui hai bisogno</p>
 				<div class="form-row">
 					<div class="form-group col">
-						<a class="btn btn-primary btn-bordered mb-5" href="<?php ldp_get_base_path(); ?>contatti">Contattaci</a>
+						<a class="btn btn-primary btn-bordered mb-5" href="<?php invirtuale_get_base_path(); ?>contatti">Contattaci</a>
 					</div>
 				</div>
 			</div>

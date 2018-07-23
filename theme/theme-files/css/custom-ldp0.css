@@ -1,0 +1,128 @@
+/* Add here all your CSS customizations */
+.min-height-60
+{
+    min-height: 60px !important;
+}
+
+#headerLogoMiniImg
+{
+    width:164px;
+    height: 36px;
+    position: absolute;
+    left:15px;
+    top:20px;
+}
+
+.font-size-15{font-size: 15px !important;}
+.font-size-20{font-size: 20px !important;}
+
+.mobileSocialIcons
+{
+    margin-top:-40px !important;
+}
+
+
+/*---------START SECTIONS-----------*/
+.section-header-text {
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px 30px 0px !important;
+}
+
+.section-overlay {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    padding: 90px 0px 90px 0px !important;
+}
+
+.section-box
+{
+    height:400px;
+    background-size:cover;
+}
+
+.section-header h1
+{
+    color: #fff !important;
+    font-size: 3.250em;
+    font-weight: 300;
+    line-height: 46px;
+    margin: 0px 0px 30px 0px !important;
+    background: transparent !important;
+}
+
+.section-header h2 {
+    font-size: 1.6em;
+    line-height: 1.4em;
+    color: #fff !important;
+}
+
+.section-body h3 {
+    font-size: 2.6em;
+    font-weight: 300;
+    line-height: 42px;
+    margin: 0 0 32px 0;
+    color: #0e0e0e;
+    letter-spacing: -1px;
+    text-transform: none
+}
+/*---------END SECTIONS-----------*/
+
+/*---------START CONTACT-----------*/
+.contact_map {
+    border: 1px solid #ededed !important;
+    margin: 0px 0px 20px 0px !important;
+    height: 230px;
+}
+
+.contact_title {
+    font-size: 18px;
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 10px 0px !important;
+    font-weight: 400 !important;
+    color: #0088cc;
+}
+
+.contact_text {
+    font-size: 18px;
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 10px 0px !important;
+    font-weight: 400 !important;
+    color: #0e0e0e;
+}
+
+.contact_email {
+    color: #a2c640;
+}
+
+.contact-map-container
+{
+    margin-bottom: 20px;
+}
+
+
+/*---------END CONTACT-----------*/
+
+/*---------START SERVIZI-----------*/
+.service-box-row {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+
+.fs-16
+{
+    font-size: 16px;
+}
+
+.btn-primary.btn-bordered {
+    background: transparent;
+    border-color: #165b77;
+    border-width:3px;
+    color: #165b77;
+}
+/*---------END SERVIZI-----------*/

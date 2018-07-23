@@ -4,7 +4,7 @@
  *
  * Template Name: Eventi Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();
@@ -31,7 +31,7 @@ get_header();
 							<span class="thumb-info-side-image-wrapper p-0 d-none d-md-block">
 
 								<a title="" href="<?echo get_permalink()?>">
-									<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/blog/blog-law-firm-1.jpg" class="img-fluid" alt="" style="width: 195px;">
+									<img src="<?php invirtuale_get_theme_base_path(); ?>img/demos/law-firm/blog/blog-law-firm-1.jpg" class="img-fluid" alt="" style="width: 195px;">
 								</a>
 							</span>
 							<span class="thumb-info-caption">

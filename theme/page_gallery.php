@@ -4,7 +4,7 @@
  *
  * Template Name: Gallery Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();

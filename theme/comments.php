@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 /*
@@ -28,8 +28,8 @@ if ( post_password_required() ) {
 		?>
 		<h2 class="comments-title">
 			<?php
-			$ldp_comment_count = get_comments_number();
-			if ( '1' === $ldp_comment_count ) {
+			$invirtuale_comment_count = get_comments_number();
+			if ( '1' === $invirtuale_comment_count ) {
 				printf(
 					/* translators: 1: title. */
 					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'ldp' ),
@@ -38,8 +38,8 @@ if ( post_password_required() ) {
 			} else {
 				printf( // WPCS: XSS OK.
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $ldp_comment_count, 'comments title', 'ldp' ) ),
-					number_format_i18n( $ldp_comment_count ),
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $invirtuale_comment_count, 'comments title', 'ldp' ) ),
+					number_format_i18n( $invirtuale_comment_count ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			}

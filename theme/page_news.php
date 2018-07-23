@@ -4,7 +4,7 @@
  *
  * Template Name: News Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();

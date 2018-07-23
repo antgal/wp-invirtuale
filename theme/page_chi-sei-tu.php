@@ -4,7 +4,7 @@
  *
  * Template Name: Chi Sei Tu Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();

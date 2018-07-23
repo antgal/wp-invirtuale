@@ -4,12 +4,12 @@
  *
  * Template Name: Servizi Page
  *
- * @package LDP
+ * @package INVIRTUALE
  */
 
 get_header();
 ?>
-<section class="section section-text-light section-center section-box section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php ldp_get_theme_base_path(); ?>img/contact_ldp.jpg) no-repeat center center;">
+<section class="section section-text-light section-center section-box section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php invirtuale_get_theme_base_path(); ?>img/contact_ldp.jpg) no-repeat center center;">
 	<div class="section-overlay">
 		<div class="container">
 				<div class="row center text-center mt-5">
@@ -32,7 +32,7 @@ get_header();
 			<div class="col-md-4 col-sm-12 col-xs-12 center">
 				<div class="service-box-row">
 					<h4 class="text-center">Box 1</h4>					
-					<img class="img-fluid mb-3" src="<?php ldp_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
+					<img class="img-fluid mb-3" src="<?php invirtuale_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
 					<p class="text-justify fs-16">
 						Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet
 					</p>					
@@ -42,7 +42,7 @@ get_header();
 			<div class="col-md-4 col-sm-12 col-xs-12 center">
 				<div class="service-box-row">
 					<h4 class="text-center">Box 2</h4>
-					<img class="img-fluid mb-3" src="<?php ldp_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
+					<img class="img-fluid mb-3" src="<?php invirtuale_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
 					<p class="text-justify fs-16">
 						Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet
 					</p>
@@ -52,7 +52,7 @@ get_header();
 			<div class="col-md-4 col-sm-12 col-xs-12 center">
 				<div class="service-box-row">
 				<h4 class="text-center">Box 3</h4>
-				<img class="img-fluid mb-3" src="<?php ldp_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
+				<img class="img-fluid mb-3" src="<?php invirtuale_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
 				<p class="text-justify fs-16">
 					Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet
 				</p>
@@ -73,7 +73,7 @@ get_header();
 			<div class="col-md-4 col-sm-12 col-xs-12 center">
 				<div class="service-box-row">
 					<h4 class="text-center">Box 1</h4>					
-					<img class="img-fluid mb-3" src="<?php ldp_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
+					<img class="img-fluid mb-3" src="<?php invirtuale_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
 					<p class="text-justify fs-16">
 						Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet
 					</p>					
@@ -83,7 +83,7 @@ get_header();
 			<div class="col-md-4 col-sm-12 col-xs-12 center">
 				<div class="service-box-row">
 					<h4 class="text-center">Box 2</h4>
-					<img class="img-fluid mb-3" src="<?php ldp_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
+					<img class="img-fluid mb-3" src="<?php invirtuale_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
 					<p class="text-justify fs-16">
 						Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet
 					</p>
@@ -93,7 +93,7 @@ get_header();
 			<div class="col-md-4 col-sm-12 col-xs-12 center">
 				<div class="service-box-row">
 				<h4 class="text-center">Box 3</h4>
-				<img class="img-fluid mb-3" src="<?php ldp_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
+				<img class="img-fluid mb-3" src="<?php invirtuale_get_theme_base_path(); ?>img/img-placeholder-400x260.png" alt="Image" title="Image">
 				<p class="text-justify fs-16">
 					Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet
 				</p>
@@ -110,7 +110,7 @@ get_header();
 				<p>Scrivici o chiamaci e otterrai tutte le informazioni di cui hai bisogno</p>
 				<div class="form-row">
 					<div class="form-group col">
-						<a class="btn btn-primary btn-bordered btn-lg mb-5" href="<?php ldp_get_base_path(); ?>contatti" >Contattaci</a>
+						<a class="btn btn-primary btn-bordered btn-lg mb-5" href="<?php invirtuale_get_base_path(); ?>contatti" >Contattaci</a>
 					</div>
 				</div>
 			</div>
